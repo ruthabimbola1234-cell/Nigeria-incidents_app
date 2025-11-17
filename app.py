@@ -8,7 +8,7 @@ import os
 
 def load_data():
     # using pandas to load the dataset
-    df = pd.read_csv("archive\incidents.csv")
+    df = pd.read_csv("incidents.csv")
     # add new columns
     incident_list = []
     location_list = []
